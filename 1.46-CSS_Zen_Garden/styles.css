@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Libre Baskerville', sans-serif;
+    font-size: 70%;
+}
+
+.container {
+    /* give the container display grid */
+    /* with six rows, 50px high */
+    /* default all cells/children on the left be 2/3 the screen width, and all on the left 1/3 */
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, auto-fit);
+}
+.container > div {
+    border: solid black 2px;
+}
+
+.header {
+    grid-column: 1 / 9;
+}
+
+.summary {
+    grid-column: 1 / 9;
+}
+
+.preamble {
+    grid-column: 1 / 9;
+}
+
+.explanation {
+    grid-column: 1 / 9;
+}
+
+.participation {
+    grid-column: 1 / 9;
+}
+
+.benefits {
+    grid-column: 1 / 9;
+}
+
+.requirements {
+    grid-column: 1 / 9;
+}
+
+.footer {
+    grid-column: 1 / 9;
+}
+
+.authors {
+    background-color: lightcoral
+}
+.links {
+    background-color: lightpink
+}
+
+.footer {
+    /* make these span the width of the page */
+    background-color: aquamarine;
+}
+
+@media (max-width: 900px){
+    /* use this media query to help these two cells drop to the bottom when screens are smaller */
+    .authors {
+         
+    }
+    .links {
+
+    }
+    /* container could use some help so that it's children are full screen width */
+    .container {
+        
+    }
+}
+
+/* FLEX */
+/* use flexbox to make the icons behave like css zen garden's social icons */
+.icons {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+}
+
+.icons > div {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+}

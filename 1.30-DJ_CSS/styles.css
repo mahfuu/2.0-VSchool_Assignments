@@ -1,0 +1,80 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+    margin: 0px;
+    padding: 0px;
+    background-color: #531253;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    margin: 25px;
+    -webkit-transition: background-color 1s linear, border 1s linear, height 1s ease-in, width 1s ease-in;
+    -moz-transition: background-color 1s linear, border 1s linear, height 1s ease-in, width 1s ease-in;
+    -o-transition: background-color 1s linear, border 1s linear, height 1s ease-in, width 1s ease-in;
+    transition: background-color 1s linear, border 1s linear, height 1s ease-in, width 1s ease-in;
+}
+
+.box1 {
+    background-color: #FF99DD;
+}
+
+.box2 {
+    background-color: #FF33BB;
+}
+
+.box3 {
+    background-color: #B828B8;
+}
+
+.box4 {
+    background-color: blueviolet;
+}
+
+.box5 {
+    background-color: #3765BE;
+}
+
+.box6 {
+    background-color: #73E4E8;
+}
+
+.box1:hover {
+    background-color: crimson;
+}
+
+.box2:hover {
+    background-color: crimson;
+}
+
+.box3:hover {
+    background-color: crimson;
+}
+
+.box4:hover {
+    background-color: crimson;
+}
+
+.box5:hover {
+    background-color: crimson;
+}
+
+.box6:hover {
+    background-color: crimson;
+}
+
+.box:hover {
+    border: 10px solid orangered;
+    height: 75px;
+    width: 75px;
+}

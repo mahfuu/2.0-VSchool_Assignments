@@ -1,0 +1,77 @@
+{
+    "appetizers": [
+        {
+            "name": "Caesar's Salad",
+            "ingredients": ["lettuce", "cheese", "croutons", "homemade caesar dressing"],
+            "description": "Try our fresh caesar salad with homemade caesar dressing right from our very own kitchen."
+        },
+        {
+            "name": "Loaded Potato Salad",
+            "ingredients": ["potatoes", "mayonaise", "mustard", "pickles", "bacon"],
+            "description": "We boil and dice our red-skinned potatoes with the skin on and add bacon bits to this homemade appetizer."
+        },
+        {
+            "name": "Potato Salad",
+            "ingredients": ["potatoes", "mayonaise", "pickles"],
+            "description": "We peel these potatoes and before they are boiled and diced and prepared for you.  This is great for customers who may not like the extra ingredients of our loaded potato salad."
+        }
+    ],
+    "cold sandwiches": [
+        {
+            "name": "Club",
+            "ingredients": ["choice of bread", "turkey", "bacon", "roast beef", "choice of cheese", "lettuce", "tomatoes", "onions", "mayonaise", "mustard"],
+            "description": "Our style of club comes with turkey bacon and roast beef.  Choose your type of bread and cheese.  Let us know if you want to remove the LTO, mayo, or mustard."
+        },
+        {
+            "name": "Peanut Butter and Jelly",
+            "ingredients": ["choice of bread", "Peanut Butter", "jelly"],
+            "description": "Our vegetarian option is also great for kids.  Adults love it, too."
+        }
+    ],
+    "hot sandwiches": [
+        {
+            "name": "Meatball Sub",
+            "ingredients": ["hoagie bread", "meatballs in marinara sauce", "parmesan cheese", "mozarella cheese", "american cheese"],
+            "description": "The best meatball subs in town!  Ask for slice banana peppers or jalepenos if you like some heat."
+        },
+        {
+            "name": "Grilled Cheese",
+            "ingredients": ["choice of bread", "american cheese", "butter"],
+            "description": "Our vegetarian option is also great for kids.  Adults love it, too.  (Ask us about our vegan option as well.  No butter.)"
+        }
+    ],
+    "desserts": [
+        {
+            "name": "Vanilla IceCream Cone",
+            "ingredients": ["ice cream, cone"],
+            "description": "Ask for toppings. We also have bowls."
+        },
+        {
+            "name": "pecan pie",
+            "ingredients": ["pecan pie, whipped cream"],
+            "description": "Grandma's recipe! (allergy warning)"
+        }
+    ],
+    "beverages": [
+        {
+            "name": "Water",
+            "ingredients": "H2O",
+            "description": "Ice cold."
+        },
+        {
+            "name": "Sweet Tea",
+            "ingredients": ["ice cold water", "lipton's black tea", "sugar"],
+            "description": "Our ice cold tea comes one of two ways: sweet, or in the harbor!  Just kidding, we have hot tea and lemonade."
+        },
+        {
+            "name": "Lemonade",
+            "ingredients": ["ice cold water", "freshly squeezed lemons", "sugar"],
+            "description": "No pulp and homemade!"
+        },
+        {
+            "name": "Hot Tea",
+            "ingredients": ["hot water", "choice of tea-bags", "choice of extras"],
+            "description": "Careful! It is served hot!  Let us know if you like cream or sugar."
+        }
+    ]
+}
