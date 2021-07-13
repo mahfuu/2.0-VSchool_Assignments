@@ -48,15 +48,18 @@ class PlayerBuild {
     }
     randomNumber(){
         let someNumber = Math.floor((Math.random())*3)
-        // console.log(someNumber)
+        console.log(someNumber)
         if(someNumber === 0){
             this.gotHit()
+            console.log("you got hit")
         }
         if(someNumber === 1){
             this.gotPowerup()
+            console.log("got a mushrooom")
         }
         if(someNumber === 2){
             this.addCoins()
+            console.log("take a coin")
         }
     }
     printGame() {
@@ -76,4 +79,4 @@ class PlayerBuild {
 
 let myPlayer = new PlayerBuild
 let show = () => myPlayer.printGame()
-const intervalID = setInterval(show,2000)
+const intervalID = setInterval(show,3000)
