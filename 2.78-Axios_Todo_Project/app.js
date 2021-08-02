@@ -69,7 +69,7 @@ const loadTodoList = () => {
         .then(response => {
             console.log(response.data)
             for(let i = 0; i < response.data.length; i++){
-                // if(response.data[i].completed === true){continue}
+                if(response.data[i].completed === true){continue}
                 const div = document.createElement("div")
                 const p = document.createElement("p")
                 const trashBtn = document.createElement("button")
@@ -118,7 +118,7 @@ const loadTodoList = () => {
                 tooltipContainer.appendChild(newList).classList.add("tooltip-item")
                 
                 //build a tooltip to display
-                newList.style.display = "none"
+                // newList.style.display = "none"
 
                 const newTitle = document.createElement("h1")
                 const newPrice = document.createElement("h2")
